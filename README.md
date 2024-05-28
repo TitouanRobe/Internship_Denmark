@@ -1,44 +1,48 @@
 
 # Object Detection Model Implementation 
 
+## Introduction
 
-Bienvenue sur le dépôt Github du projet de stage de création d'un modèle d'IA pour la détection des panneaux de signalisations à l'université de SOnderborg au Danemark.
-Ce projet vise dans un premier temps à détecter et reconnaitre les panneaux de signalisation. Et dans un deuxième temps, de détecter si les panneaux sont vandalisés ou non.
+Welcome to the GitHub repository of my internship project at the university of Sønderbog in Denmark for creating an artificial intelligence model for traffic sign detection. This project aims to develop a machine learning model capable of detecting and recognizing, initially, road traffic signs from images and, subsequently, vandalized signs. This GitHub contains the various methods that allowed me to develop the model and the different techniques used to improve the model's performance.
 
-Ce github contient les différentes méthodes qui m'ont permis de développer un modèle et d'améliorer les performances de ce modèle. 
+## Context
 
-## Context 
+Traffic sign detection is a crucial task for autonomous driving systems and road safety applications. This project aims to create a detection model based on deep learning.
 
-Les panneaux de signalisation sont crucials pour maintenir la sécurité routière. 
-Des panneaux non-conformes peuvent : 
+Traffic signs are crucial for maintaining road safety.
 
-- augmenter le nombre d'accidents ou de violations du code de la route 
-- confusion pour les conducteurs, cyclistes, piétons
+Non-compliant signs can cause:
 
-Ce projet vise à créer un modèle d'IA pour créer une solution plus rapide et innovante pour améliorer la sécurité routière. 
+- Confusion for drivers, cyclists, and pedestrians.
+- An increase in the number of accidents and traffic violations.
 
+## Objectives
+
+1. Collect and preprocess a dataset of traffic sign images.
+2. Develop a deep learning model for the detection and recognition of traffic signs.
+3. Evaluate the model's performance.
+4. Improve the model's performance.
+5. Integrate the model into a drone.
 
 
 ## Table of Contents
 
 - [Requirements](#Requirements)
-- [Installation](#installation)
-- [Utilisation](#utilisation)
-  - [Entraîner le modèle](#entraîner-le-modèle)
-  - [Predictions](#Predictions)
+- [Training](#Training)
 - [Improvement](#Improvement)
-- [Contribuer](#contribuer)
-- [Licence](#licence)
-- [Contact](#contact)
 
 
 ## Requirements
 
+Before starting, make sure you have the following installed:
 
+- Python 3.10.3
+- Nvidia CUDA 11.7, to use your machine's GPU, essential for training (link for download: https://developer.nvidia.com/cuda-11-7-0-download-archive)
+- PyTorch to load and use the models (link for download: https://pytorch.org/get-started/locally/)
+- Nvidia TensorRT, a technique to export the model in a different format to improve model performance (https://developer.nvidia.com/tensorrt)
+- Nvidia CuDNN 8.4.1 (link for download: https://developer.nvidia.com/rdp/cudnn-archive)
 
-## Installation
-
-## Predictions
+## Training
 
 ## Improvement
 
