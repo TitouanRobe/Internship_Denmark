@@ -44,5 +44,13 @@ Before starting, make sure you have the following installed:
 
 ## Training
 
+You will find in the folder `scripts` the two "training" files that allow you to train the DETR and YOLO architecture models. These are the two models that I analyzed, used, and compared during this internship.
+
+I turned to the YOLO model, where I obtained the best performance.
+
 ## Improvement
 
+To improve my model's performance, I studied the knowledge distillation method, which involves transferring knowledge from a complex model to a lighter model to reduce the model's size without affecting accuracy.
+
+Next, you will find in the file: 
+A script to export the model in TensorRT format to double the inference speed without changing the accuracy.
