@@ -30,6 +30,7 @@ Non-compliant signs can cause:
 - [Requirements](#Requirements)
 - [Training](#Training)
 - [Improvement](#Improvement)
+- [Current state](#Current state)
 
 
 ## Requirements
@@ -53,6 +54,17 @@ I turned to the YOLO model, where I obtained the best performance.
 To improve my model's performance, I studied the knowledge distillation method, which involves transferring knowledge from a complex model to a lighter model to reduce the model's size without affecting accuracy.
 
 Next, you will find in the file: /scripts/export_to_TensorRT_format.py
-A script to export the model in TensorRT format to double the inference speed without changing the accuracy.
+
+.A script to export the model in TensorRT format to double the inference speed without changing the accuracy.
 
 The "scripts" folder contains all methods that I used for improving my model performance during this internship.
+
+## Current state
+
+Two models exist today, one for detecting traffic signs and one for detecting vandalized signs.
+
+There are two main files, one for image processing and one for video processing; both function the same way.
+
+You need to provide the URL of the video or image. A Python class will obtain the results from both models, which will then be combined and analyzed to produce the final version of the specified image or video.
+
+You will find examples of results in the `output` folder.
