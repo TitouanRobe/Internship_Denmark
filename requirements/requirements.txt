@@ -1,0 +1,6 @@
+ultralytics
+transformers
+pytorch_lightning
+cv2
+numpy
+timm
