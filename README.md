@@ -52,5 +52,7 @@ I turned to the YOLO model, where I obtained the best performance.
 
 To improve my model's performance, I studied the knowledge distillation method, which involves transferring knowledge from a complex model to a lighter model to reduce the model's size without affecting accuracy.
 
-Next, you will find in the file: 
+Next, you will find in the file: /scripts/export_to_TensorRT_format.py
 A script to export the model in TensorRT format to double the inference speed without changing the accuracy.
+
+The "scripts" folder contains all methods that I used for improving my model performance during this internship.
